@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.accessory {
+	display: grid;
+	grid-template-columns: 5fr 1fr 1fr;
+	column-gap: 0.25rem;
+}
