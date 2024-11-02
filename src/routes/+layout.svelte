@@ -5,6 +5,12 @@
   let { children } = $props();
 </script>
 
+<svelte:head>
+  <title>
+    Tesla Configurator
+  </title>
+</svelte:head>
+
 <Header />
 <main>
   {@render children()}
